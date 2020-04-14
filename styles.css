@@ -63,6 +63,48 @@ header{
 .container{
    width: 100%;
 }
+/* ///////////////////////////////////////////// */
+
+.block_one {
+    display: flex;
+    background: #F6F6F6;
+    font-family: Inter;
+}
+
+.block_one h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 100px 30px 14px 165px;
+}
+
+.block_one h1{
+    font-size: 78px;  
+    font-weight: bold;  
+    margin: 0px 0px 14px 165px;
+}
+
+.block_one p{
+    font-size: 20px;
+    margin: 0px 0px 0px 165px;
+}
+
+.btn1{
+    margin: 24px 0px 24px 165px;
+    font-size: 35px;
+    font-weight: bold;
+    border: 1px solid #ff7171;
+    color: #FF7171;
+    width: 203px;
+    height: 80px;
+}
+
+.block_one img{
+    width: 604px;
+    height: 635px;
+    padding: 60px 100px 144px 15px;
+}
+
+
 /* /////////////////////////////////////////////////////// */
 .block3{
     display: flex;
