@@ -324,3 +324,59 @@ footer form{
     justify-content: space-between;
     width: 390px;
 }
+
+.about{
+    margin-left: 100px;
+    margin-top: 110px;
+    margin-right: 100px;
+}
+
+
+.about_content{
+    display: flex;
+    min-width: 900px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+}
+
+.about_h1{
+    font-size: 37px;
+    font-weight: bold;
+    width: 600px;
+}
+
+.about_description{
+    vertical-align: middle;
+    padding-top: 10px;
+    font-size: 17px;
+    width: 450px;
+    margin-left: 20px;
+}
+
+
+
+.about_team{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.name{
+    padding-left: 60px;
+    padding-top: 15px;
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.status{
+    font-size: 17px;
+    padding-left: 60px;
+    padding-top: 10px;
+}
+
+
+.about_img{
+    width: 210px;
+    height: 220px;
+}
