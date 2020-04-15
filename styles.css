@@ -380,3 +380,97 @@ footer form{
     width: 210px;
     height: 220px;
 }
+
+/* //////////////////////////////////////////////*/
+
+.buy {
+    font-family: Inter;
+    background: #F6F6F6;
+}
+
+.Chose {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 141px 0 0 0 ;
+}
+
+.buy > p{
+    font-size: 24px;
+    text-align: center;
+    padding: 16px;
+}
+
+.btn__one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__Y{
+    width: 123px;
+    height: 48px;
+    font-size: 24px;
+    background: #FF7171;
+    color: white;
+}
+
+.btn__M{
+    width: 123px;
+    height: 48px;
+    font-size: 24px;
+    background: white;
+    color: #FF7171;
+    border: 1px solid #FF7171;
+}
+
+.buy_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy_block-one{
+    width: 445px;
+    height: 527px;
+    text-align: center;
+    margin: 44px 10px;
+    border: 1px solid black;
+    border-radius: 3%;
+}
+
+.buy_block-two{
+    background: #FF7171;
+    border: none;
+    color: #ffffff;
+}
+
+.buy_block-one h1{
+    font-size: 80px;
+    font-weight: bold;
+    padding: 64px 0 16px 0;
+}
+
+.buy_block-one h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buy_block-one p{
+    font-size: 24px;
+    padding: 16px 0 101px 0;
+}
+
+.buy_block-one button{
+    border: 1px solid black;
+    font-size: 32px;
+    font-weight: bold;
+    width: 400px;
+    height: 80px;
+}
+
+.buy_block-two button{
+    border: 1px solid white;
+    background:  #FF7171;
+    color: white;
+}
