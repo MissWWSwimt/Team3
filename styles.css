@@ -162,7 +162,7 @@ transition-duration: 0.5s;
 transition-timing-function: ease;
 
 }
-.block3_email_input::-webkit-input-placeholder { color: #3D3D3D; }
+input::-webkit-input-placeholder { color: #3D3D3D; }
 
 .block3_email_input:focus{
 background:rgb(250, 95, 95) ;
@@ -380,3 +380,4 @@ footer form{
     width: 210px;
     height: 220px;
 }
+
