@@ -61,7 +61,7 @@ header{
 }
 /*                               */
 .container{
-   width: 100%;
+   width: 100vw;
 }
 /* ///////////////////////////////////////////// */
 
@@ -109,7 +109,7 @@ header{
 .block3{
     display: flex;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     position: relative;
 }
 .block3_image{
@@ -128,13 +128,13 @@ header{
 }
 .gift{
     position: absolute;
-    left: 46.5%;
+    left:calc(50vw - 48.5px);
     top: 66px;
 }
 .block3_email_container{
     height: 100%;
     width: 45%;
-    margin: 149px auto 0 auto;
+    margin: 10vw auto 0 auto;
 }
 .block3_email_h{
     font-weight: bold;
@@ -170,7 +170,7 @@ border: 2px solid rgb(98, 188, 240);
 transform: scale(1.05);
 }
 .block3_email_btn{
-    width: 100%;
+    max-width: 100%;
     height: 64px;
     background: #3D3D3D;
     color: #FFFFFF;
@@ -182,7 +182,7 @@ font-size: 32px;
 cursor: pointer;
 margin-bottom: 16px;
 transition-property: all;
-transition-duration: 0.5s;
+transition-duration: 0.4s;
 transition-timing-function: ease;
 }
 .block3_email_btn:hover{
@@ -381,3 +381,143 @@ footer form{
     height: 220px;
 }
 
+/* //////////////////////////////////////////////*/
+
+.buy {
+   
+    font-family: Inter;
+    background: #F6F6F6;
+}
+
+.Chose {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 141px 0 0 0 ;
+}
+
+.buy > p{
+    font-size: 24px;
+    text-align: center;
+    padding: 16px;
+}
+
+.btn__one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__Y{
+    width: 123px;
+    height: 48px;
+    font-size: 24px;
+    background: #FF7171;
+    color: white;
+}
+
+.btn__M{
+    width: 123px;
+    height: 48px;
+    font-size: 24px;
+    background: white;
+    color: #FF7171;
+    border: 1px solid #FF7171;
+}
+
+.buy_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy_block-one{
+    width: 445px;
+    height: 527px;
+    text-align: center;
+    margin: 44px 10px;
+    border: 1px solid black;
+    border-radius: 3%;
+}
+
+.buy_block-two{
+    background: #FF7171;
+    border: none;
+    color: #ffffff;
+}
+
+.buy_block-one h1{
+    font-size: 80px;
+    font-weight: bold;
+    padding: 64px 0 16px 0;
+}
+
+.buy_block-one h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.buy_block-one p{
+    font-size: 24px;
+    padding: 16px 0 101px 0;
+}
+
+.buy_block-one button{
+    border: 1px solid black;
+    font-size: 32px;
+    font-weight: bold;
+    width: 400px;
+    height: 80px;
+}
+
+.buy_block-two button{
+    border: 1px solid white;
+    background:  #FF7171;
+    color: white;
+}
+
+                     /* ------------Адаптив---------- */
+@media (max-width:768px){
+    .block3{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 100vw;
+        position: relative;
+    }
+    .block3_image{
+        height: 60vh;
+width: 100%;
+    }
+    .block3_email{
+        width: 100%;
+        height: 100vh;
+    }
+    .gift{
+        display: none;
+    }
+    .block3_email_btn{
+        font-size: 20px;
+    }
+    .refer *:first-child{
+        margin-right: 15px;
+    }
+    .refer *:nth-child(2){
+        margin-right: 15px;
+    }
+    .refer *:nth-child(3){
+        margin-right: 0px;
+    }
+    .main_header{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    header{
+       height: auto;
+       width: 100vw;
+        margin-bottom: 20px;
+    }
+    
+
+}
