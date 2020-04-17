@@ -715,7 +715,7 @@ width: 100%;
 }
 }
 
-@media (min-width:1024px){
+@media (min-width:1024px) and (max-width:1025px){
     .thirdref{
         margin-right: 0;
     }
@@ -785,7 +785,7 @@ width: 100%;
 
 
 }
-@media(min-width:320px){
+@media(max-width:320px){
    .block3_email_container{
     width: 80vw;
     margin-top: 10vw;
