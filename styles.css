@@ -44,6 +44,7 @@ header{
 }
 .logo img{
     margin-top: 18px;
+    margin-left: 20px;
 }
 .refer{
     display: flex;
@@ -215,7 +216,7 @@ footer{
     justify-content: space-between;
     margin-top: 60px;
     border-bottom: 2px solid #989898 ;
-    margin-left: 150px;
+    margin-left: 155px;
     margin-right: 140px;
     padding-bottom: 30px;
     color: #3D3D3D;
@@ -272,7 +273,7 @@ footer form{
 .bottom{
     display: flex;
     justify-content: space-between;
-    margin-left: 150px;
+    margin-left: 155px;
     margin-top: 25px;
 
 }
@@ -298,12 +299,18 @@ footer form{
 .block2{
     height: auto;
     display: flex;
-    margin: 100px 130px 100px 100px;
+    margin: 100px 194px 100px 179px;
+}
+
+.block2_illustration{
+    padding: 0px;
+    margin: 0px;
 }
 
 .block2_img{
-    height: 450px;
-    width: 500px;
+    height: 382px;
+    width: 528px;
+    margin-right: 81px;
 }
 
 .block2_h1{
@@ -326,7 +333,7 @@ footer form{
 }
 
 .about{
-    margin-left: 100px;
+    margin-left: 155px;
     margin-top: 110px;
     margin-right: 100px;
 }
@@ -341,7 +348,7 @@ footer form{
 }
 
 .about_h1{
-    font-size: 37px;
+    font-size: 40px;
     font-weight: bold;
     width: 600px;
 }
@@ -349,7 +356,7 @@ footer form{
 .about_description{
     vertical-align: middle;
     padding-top: 10px;
-    font-size: 17px;
+    font-size: 20px;
     width: 450px;
     margin-left: 20px;
 }
@@ -363,16 +370,16 @@ footer form{
 }
 
 .name{
-    padding-left: 60px;
+    text-align: center;
     padding-top: 15px;
     font-weight: 600;
-    font-size: 21px;
+    font-size: 24px;
 }
 
 .status{
-    font-size: 17px;
-    padding-left: 60px;
-    padding-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 34px;
 }
 
 
@@ -384,7 +391,7 @@ footer form{
 /* //////////////////////////////////////////////*/
 
 .buy {
-   
+    
     font-family: Inter;
     background: #F6F6F6;
 }
@@ -533,13 +540,16 @@ display: none;
     
     .Chose{
         font-size: 32px;
+        padding-top: 50px;
     }
+    .block2_h1 {
+        font-size: 50px;}
 .buy > p{
 font-size: 18px;
 }
 header a{
     font-size: 15px;
-    margin: 0;
+    margin: 10px; /*k*/
 }
 .refer{
     display: flex;
@@ -703,4 +713,82 @@ width: 100%;
     margin-right: 0;
     width: 150px;
 }
+}
+
+@media (min-width:1024px) and (max-width:1025px){
+    .thirdref{
+        margin-right: 0;
+    }
+    .thirdref a{
+        margin-right: 0;
+    }
+    header {
+        width: 100vw;
+        height: 7vh;
+    }
+.block2{
+    width: 80vw;
+    margin: 10vw auto 10vw auto
+}
+
+.block2_illustration{
+    width:50% ;
+    height:100% ;
+}
+.block2_img{
+    width: 100%;
+}
+.block_one{
+    width: 80vw;
+    margin: 0 auto;
+}
+.block1{
+    background: #F6F6F6;
+    height: 40vh;
+}
+.block_one div{
+    /* display: flex;
+    /* justify-content: center; */
+    flex-direction: column; 
+    width: 80vw;
+    margin: 50px auto;
+}
+.block1 div p{
+  margin: 0px 0px 20px 0px
+}
+
+.block_one img {
+    width: 50%;
+    height: 30vh;
+    padding: 0;
+    margin-top: 50px;
+     }
+     .block3{
+         height: 50vh;
+     }
+
+.btn1{
+    margin: 0;
+}
+.block2_content{
+    width: 50%;
+}
+
+.block_one div h2{
+    margin: 20px 0px 0px 0px;
+    font-size: 40px;
+}
+.block_one div h1{
+  margin: 0px 0px 20px 0px;
+    font-size: 50px;
+}
+
+
+}
+@media(max-width:320px){
+   .block3_email_container{
+    width: 80vw;
+    margin-top: 10vw;
+   }
+   
 }
