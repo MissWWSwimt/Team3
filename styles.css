@@ -540,7 +540,10 @@ display: none;
     
     .Chose{
         font-size: 32px;
+        padding-top: 50px;
     }
+    .block2_h1 {
+        font-size: 50px;}
 .buy > p{
 font-size: 18px;
 }
@@ -712,7 +715,7 @@ width: 100%;
 }
 }
 
-@media (max-width:1024px){
+@media (min-width:1024px){
     .thirdref{
         margin-right: 0;
     }
@@ -781,4 +784,11 @@ width: 100%;
 }
 
 
+}
+@media(min-width:320px){
+   .block3_email_container{
+    width: 80vw;
+    margin-top: 10vw;
+   }
+   
 }
