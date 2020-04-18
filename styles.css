@@ -44,7 +44,7 @@ header{
     margin-left: 165px;
     margin-right: 161px;
 }
-    
+
 
     @media (min-width: 768px){
     .container{
@@ -128,7 +128,6 @@ header{
     margin-top: 30px;
     margin-left: 15px;
     padding: 0;
-    
 }
 
 
@@ -244,16 +243,19 @@ img:nth-child(3){
     margin-left: 5px;
 }
 
+.buy_section{
+    background: #F6F6F6;
+}
+
 .buy{
     text-align: center;
-    background: #F6F6F6;
+    margin: 0;
+    padding-top: 141px;
 }
 
 .buy h2{
     font-size: 60px;
-    margin-top: 141px;
-    margin-bottom: 16px;
-    letter-spacing: -1.34px;
+    margin: 0 0 16px 0;
 }
 
 .buy h4{
