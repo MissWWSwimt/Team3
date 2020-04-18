@@ -307,3 +307,107 @@ min-width: 413px;
     height: 262px;
     margin-left: 30px;
 }
+.buy{
+    text-align: center;
+}
+
+.buy h2{
+    font-size: 60px;
+    margin-top: 141px;
+    margin-bottom: 16px;
+}
+
+.buy .btn-one button{
+    width: 123px;
+    height: 48px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 9.5px;
+    margin-top: 37px;
+}
+
+.buy .btn-one button:first-child{
+    background: var(--primary);
+    color: var(--secondary);
+}
+
+.buy .btn-one button:first-child:hover{
+    border: 1px solid var(--black);
+    color:var(--black);
+    background-color: var(--secondary);
+}
+
+.buy .btn-one button:last-child{
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
+.buy .btn-one button:last-child:hover{
+    background-color: var(--black);
+    color: var(--secondary);
+    border: none;
+}
+
+.buy_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    margin-bottom: 169px;
+    padding-right: ;
+}
+
+.buy_block div{
+    width: 445px;
+    height: 527px;
+    margin-right: 32px;
+    border-radius: 12px;
+}
+
+.buy_block div:first-child{
+    border: 1px solid var(--black);
+}
+
+.buy_block div:last-child{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.buy_block h1{
+    margin-top: 64px;
+    margin-bottom: 16px;
+}
+
+.buy_block h4{
+    margin-top: 16px;
+    margin-bottom: 92px;
+}
+
+.buy_block div button{
+    padding: 13px 113.5px;
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buy_block div:first-child button{
+    border: 1px solid var(--black);
+}
+
+.buy_block div:first-child button:hover{
+    border: none;
+    background-color: var(--black);
+    color: var(--secondary);
+}
+
+.buy_block div:last-child button{
+    border: 1px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+.buy_block div:last-child button:hover{
+    border: none;
+    background-color: var(--black);
+
+}
