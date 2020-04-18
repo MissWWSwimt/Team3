@@ -41,8 +41,8 @@ header{
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    margin-left: 165px;
-    margin-right: 161px;
+   /* margin-left: 165px;
+    margin-right: 161px;*/
 }
     
 
@@ -106,7 +106,7 @@ header{
 
 .block1_text{
     height: 464px;
-    width: 50%;
+    width: 45%;
     margin-top: 132px;
     text-align: left;
     letter-spacing: -0.64px;
