@@ -167,5 +167,10 @@ margin: 0;
 .block1 h4{
     margin-top: 25px;
 }
-
+.gift{
+    display: none;
+}
+.block3{
+    display: flex;
+}
 
