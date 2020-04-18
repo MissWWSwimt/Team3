@@ -33,6 +33,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 28px;
+    margin-left: 165px;
 }
 
 .container{
@@ -106,7 +107,7 @@ header{
 
 .block1_text{
     height: 464px;
-    width: 45%;
+    width: 50%;
     margin-top: 132px;
     text-align: left;
     letter-spacing: -0.64px;
