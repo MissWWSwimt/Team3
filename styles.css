@@ -39,6 +39,8 @@ header{
     padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
+    /* margin-left: 165px;
+    margin-right: 161px;*/
 }
 
     @media (min-width: 768px){
