@@ -37,13 +37,12 @@ header{
 
 .container{
     padding-left: 15px;
-    padding-left: 15px;
+    padding-right: 15px;
     margin-right: auto;
     margin-left: auto;
-    margin-left: 165px;
-    margin-right: 161px;
+    /* margin-left: 165px;
+    margin-right: 161px; */
 }
-
 
     @media (min-width: 768px){
     .container{
@@ -244,6 +243,8 @@ img:nth-child(3){
 
 .buy_section{
     background: #F6F6F6;
+    display: flex;
+    justify-content: center;
 }
 
 .buy{
@@ -306,7 +307,7 @@ img:nth-child(3){
 .buy_block div{
     width: 445px;
     height: 527px;
-    margin: 0 16px;
+    margin: 0 16px 169px;
     border-radius: 12px;
 }
 
