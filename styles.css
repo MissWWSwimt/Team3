@@ -354,18 +354,21 @@ min-width: 413px;
     text-align: center;
     letter-spacing: -0.33px;
 }
-
+.buy_section{
+    background: #F6F6F6;
+    display: flex;
+    justify-content: center;
+}
 
 .buy{
     text-align: center;
-    background: #F6F6F6;
+    margin: 0;
+    padding-top: 141px;
 }
 
 .buy h2{
     font-size: 60px;
-    
-    margin-bottom: 16px;
-    letter-spacing: -1.34px;
+    margin: 0 0 16px 0;
 }
 
 .buy h4{
@@ -417,7 +420,7 @@ min-width: 413px;
 .buy_block div{
     width: 445px;
     height: 527px;
-    margin: 0 16px;
+    margin: 0 16px 169px;
     border-radius: 12px;
 }
 
@@ -467,7 +470,6 @@ min-width: 413px;
 .buy_block div:last-child button:hover{
     border: none;
     background-color: var(--black);
-
 }
 .block3_email_container{
     width: 412px;
