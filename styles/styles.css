@@ -556,7 +556,7 @@ min-width: 413px;
     background-color: var(--black);
 }
 
-<<<<<<< HEAD:styles.css
+
 .block3_email_btn:hover{
     border-radius: 8px;
     background: black;
@@ -579,8 +579,6 @@ line-height: 28px;
     position: relative;
 }
 
-=======
->>>>>>> 2da440a4823780c46d5f59cf2c4089a5de6ba51f:styles/styles.css
 .main-footer{
     display: flex;
     justify-content: space-between;
