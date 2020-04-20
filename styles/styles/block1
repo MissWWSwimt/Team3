@@ -1,0 +1,97 @@
+.block1 {
+    background-color: var(--secondary);
+    height: 808px;
+    
+}
+
+.block1_wrapper{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.block1_text{
+    height: 464px;
+    width: 50%;
+    margin-top: 132px;
+    text-align: left;
+    letter-spacing: -0.64px;
+}
+
+.block1_img{
+    width: 50%;
+    height: 599px;
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 0;
+    margin-bottom: 140px;
+    
+}
+
+.block1 img{
+    width: 500px;
+    height: 599px;
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 0;
+    
+}
+
+
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+font-weight: bold;
+font-size: 80px;
+line-height: 81px;
+letter-spacing: -1.78px;
+margin: 0;
+padding: 0;
+
+}
+
+
+.block1 h1{
+    height: 162;
+    width: 465;
+    margin-top: 18px;
+}
+
+h4{
+font-weight: normal;
+font-size: 24px;
+line-height: 38px;
+letter-spacing: -0.47px;
+padding: 0;
+margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+.block1_btn{
+    background-color: var(--secondary);
+    height: 80px;
+    width: 231px;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    letter-spacing: -0.85px;
+    margin-bottom: 403px;
+}
+
+
+.block1 h4{
+    margin-top: 25px;
+    margin-bottom: 24px;
+}
