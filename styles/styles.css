@@ -641,8 +641,8 @@ line-height: 28px;
 }
 
 .newsletterlink button{
-    min-width: 70px;
-    min-height: 45px;
+    min-width: 69px;
+    min-height: 43px;
     border: 1px solid var(--black);
     background-color: var(--primary);
     color: var(--secondary);
