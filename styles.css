@@ -125,7 +125,7 @@ header{
 }
 
 .block1 img{
-    width: 500px;
+    width: 580px;
     height: 599px;
     margin-top: 30px;
     margin-left: 15px;
@@ -332,9 +332,10 @@ min-width: 413px;
 .about_img{
     width: 255px;
     height: 250px;
-    margin-left: 3px;
+    margin-left: 6px;
     margin-right: 22px;
     margin-top: 0px;
+    margin-bottom: 13px;
 }
 
 .about_img:nth-child(4){
@@ -354,6 +355,12 @@ min-width: 413px;
     line-height: 34px;
     text-align: center;
     letter-spacing: -0.33px;
+    padding-right: -3px;
+    
+}
+
+.status:first-child{
+    margin-left: 0px;
 }
 .buy_section{
     background: #F6F6F6;
